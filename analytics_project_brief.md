@@ -1,8 +1,8 @@
 # Analytics Project Brief
 
-**Project Name:** _______________________ **Date:** _______________
+**Project Name:** SoundWave Strategy Recomendation **Date:** 13.01.2026
 
-**Prepared by:** _______________________
+**Prepared by:** Alina Imanakhunova
 
 ---
 
@@ -10,19 +10,19 @@
 
 **What business question or decision will this analysis inform?**
 
-_Describe the core problem in 2-3 sentences. Focus on the decision, not the analysis._
+The core business question that SoundWave company faced with: Should comapny prioritize building product features for mid-tier podcast creators (1,000–10,000 downloads per episode) or invest on scaling the ad marketplace driven primarily by top creators (more then 10,000  downloads per episode)? The analysis will serve as the basis for making investment allocation decisions that will help eliminate troubling patterns that the company has encountered.
 
 **Who is asking, and why now?**
 
-_What triggered this? What happens if we don't do it?_
+The business question was raised by The Board of Directors, prompted by increasing market consolidation (Spotify/Apple exclusives) and rising churn among large podcasts.
 
 **Who is the ultimate decision maker?**
 
-_The person asking may not be the person deciding._
+The ultimate decision maker is The Board of Directors, advised by CEO Maya Rodriguez. The Board of Directors expect presentation in 8 weeks, where data-driven decision and strategy must be defined.  
 
 **Hypothesis**
 
-_We believe ______ because ______._
+We believe that investing in the retention and growth of “middle class” creators will mitigate SoundWave’s current troubling patterns, because this segment combines the highest lifetime value with lower churn while accounting for only 8% of active podcasts today. And churn among top creators is largely driven by external market forces rather than internal product deficiencies.
 
 ---
 
@@ -32,17 +32,15 @@ _We believe ______ because ______._
 
 | Metric name | Definition | Baseline | Target |
 |-------------|------------|----------|--------|
-| | _(event/table, grain, eligibility, time window)_ | _(current)_ | _(target)_ |
+|Creator LTV by Segment| Net revenue per creator over 12 months (subscriptions + ad revenue share – estimated support cost), segmented by downloads (1,000-10,000 and 10,000+ ), excluding creators with <1,000 downloads | The "middle class"  has highest LTV, but we don't know the exact number  | Validate “middle class” segment ≥30% higher LTV than large creators|
 
 **Counter-Metrics** _(2-3 max — what breaks if we optimize the primary metric?)_
 
 | Counter-metric | Type | Why it could break | How we'll measure |
 |----------------|------|-------------------|-------------------|
-| 1. | Guardrail / Tradeoff | | |
-| 2. | Guardrail / Tradeoff | | |
-| 3. | Guardrail / Tradeoff | | |
-
-_Guardrail = must not worsen. Tradeoff = may worsen within acceptable bounds._
+| 1. Total ad marketplace revenue | Tradeoff |As the company will focus more on "middle class" it will reduce revenue from top podcasts, which by now drive 80% of value (by beliefs of Head of sales) |Calculating ad revenue on monthly basis|
+| 2. Platform growth rate (new creators) | Tradeoff |As the company will focus on "middle class" segment it may slow acquisition of new creators| Monthly new creators count |
+| 3. Top creator churn| Guardrail |Strategy should not accelerate large-creator churn |Annual churn for 10k+ segment|
 
 ---
 
@@ -50,14 +48,19 @@ _Guardrail = must not worsen. Tradeoff = may worsen within acceptable bounds._
 
 | | High Interest | Low Interest |
 |---|---|---|
-| **High Power** | _Manage Closely:_ | _Keep Satisfied:_ |
-| **Low Power** | _Keep Informed:_ | _Monitor:_ |
+| **High Power** | Board of Directors, Maya Rodriguez (CEO), Kevin Liu (VP Product), | External Investors |
+| **Low Power** | Diana Chen (Head of Sales), Creator Community Team| Platform developers |
 
 **Champions:**
+Maya Rodriguez (CEO)
+Kevin Liu (VP Product)
 
 **Blockers:**
+Diana Chen (Head of Sales)
 
-_If >2 blockers, what's your strategy?_
+**If >2 blockers, what's your strategy?**
+In case of more then 2 blockers, we can use persuasion strategy. Align findings with blockers’ incentives by explicitly showing how the recommended strategy protects or expands their KPIs, rather than threatening them. Show for the blockers like Diana that 
+"middle class" creators = are future supply for ad marketplace, without them the advertising pipeline collapses.
 
 ---
 
