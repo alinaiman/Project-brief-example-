@@ -34,7 +34,7 @@ We believe that investing in the retention and growth of “middle class” crea
 |-------------|------------|----------|--------|
 |Creator LTV by Segment| Net revenue per creator over 12 months (subscriptions + ad revenue share – estimated support cost), segmented by downloads (1,000-10,000 and 10,000+ ), excluding creators with <1,000 downloads | The "middle class"  has highest LTV, but we don't know the exact number  | Validate “middle class” segment ≥30% higher LTV than large creators|
 
-**Counter-Metrics** _(2-3 max — what breaks if we optimize the primary metric?)_
+**Counter-Metrics** 
 
 | Counter-metric | Type | Why it could break | How we'll measure |
 |----------------|------|-------------------|-------------------|
