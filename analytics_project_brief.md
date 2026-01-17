@@ -1,6 +1,6 @@
 # Analytics Project Brief
 
-**Project Name:** SoundWave Strategy Recomendation **Date:** 13.01.2026
+**Project Name:** SoundWave Strategic Focus Analysis **Date:** 13.01.2026
 
 **Prepared by:** Alina Imanakhunova
 
